@@ -1,0 +1,10 @@
+1.记录日志
+2.生成索引
+3.权限管理
+4.定时任务
+
+
+默认索引地址          D:\propty\upload\index
+默认图片文件地址       D:\propty\upload
+默认用户头像存放位置    D:\propty\upload\logo
+注册用户首张头像名称    D:D:\propty\upload\default.jpg
