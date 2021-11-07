@@ -2,9 +2,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/bootdyh2?serverTimezone=UTC&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf8 #解决mysql时区问题  serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL&
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf8 #解决mysql时区问题  serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL&
     username: root
-    password: 123456
+    password: root
     initialSize: 1
     minIdle: 3
     maxActive: 20

@@ -3,7 +3,7 @@ server:
   address: 0.0.0.0
 spring:
   profiles:
-    active: dev #开发模式
+    active: dev   #开发的模式
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
@@ -12,7 +12,7 @@ spring:
       enabled: true
   mvc:
     pathmatch:
-      use-suffix-pattern: false #不过滤路径
+      use-suffix-pattern: false    #不过滤的路径
   cache:
     ehcache:
       config: classpath:cngfig/ehcache.xml
